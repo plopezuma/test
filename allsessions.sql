@@ -23,4 +23,4 @@ FROM   v$session s,
 WHERE  s.paddr = p.addr and s.username != '(oracle)'
 ORDER BY s.username, s.osuser;
 
-SET PAGESIZE 14
+SET PAGESIZE 15
